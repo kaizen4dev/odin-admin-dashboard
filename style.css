@@ -13,7 +13,7 @@ body {
 
 .sidebar {
   grid-row: 1 / 4;
-  background-color: skyblue;
+  background-color: #56CBF9;
   display: grid;
   grid-auto-rows: min-content;
   gap: 4em;
@@ -54,7 +54,7 @@ body {
 .project-card {
   padding: 1em;
   background: white;
-  background-color: darkred;
+  background-color: #8F002D;
   color: white;
   display: grid;
   gap: 1em;
