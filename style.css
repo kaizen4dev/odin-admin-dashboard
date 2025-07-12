@@ -2,3 +2,27 @@
   padding: 0;
   margin: 0;
 }
+
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: min-content auto;
+  grid-template-rows: min-content min-content auto;
+}
+
+.sidebar {
+  grid-row: 1 / 4;
+  background-color: skyblue;
+  display: grid;
+  grid-auto-rows: min-content;
+  gap: 4em;
+  padding: 1em;
+}
+
+.sidebar > .main-links,
+.sidebar > .extra-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  font-size: 1.3em;
+}
