@@ -134,6 +134,7 @@ body {
   display: flex;
   gap: 1em;
 }
+
 .user::after {
   content: "J";
   background-color: skyblue;
@@ -141,4 +142,24 @@ body {
   height: 100%;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 4em;
+}
+
+.sidebar img {
+  height: 1em;
+  display: inline;
+}
+
+.sidebar div {
+  display: flex;
+  gap: 0.5em;
 }
