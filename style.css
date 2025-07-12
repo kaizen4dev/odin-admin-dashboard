@@ -13,7 +13,7 @@ body {
 
 .sidebar {
   grid-row: 1 / 4;
-  background-color: #56CBF9;
+  background-color: #B295AE;
   display: grid;
   grid-auto-rows: min-content;
   gap: 4em;
