@@ -112,3 +112,33 @@ body {
   background: white;
   padding: 10px;
 }
+
+.header {
+  display: flex;
+  height: 3em;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+  align-content: center;
+  text-align: center;
+}
+
+.search-field {
+  width: 74%;
+  padding-left: 1em;
+}
+
+.user {
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  gap: 1em;
+}
+.user::after {
+  content: "J";
+  background-color: skyblue;
+  font-size: 1.5em;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+}
