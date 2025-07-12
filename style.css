@@ -47,8 +47,17 @@ body {
   gap: 1em;
 }
 
-.projects>h2 {
+.nav {
   grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav button {
+  background: #B295AE;
+  height: 100%;
+  padding: 0 10px;
+  border: none;
 }
 
 .project-card {
